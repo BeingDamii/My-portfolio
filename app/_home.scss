@@ -1,12 +1,51 @@
 @import "./Page-components/navbar";
+@import "./Page-components/featuredProjects";
 
 .main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+  // background-image: url("./assets/cta-img.png");
+  background-repeat: no-repeat;
+  background-position: 6.25em;
+  position: relative;
+}
+.cta-content-wrapper {
   padding: 30px 120px;
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  background-image: url("./assets/cta-img.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  margin-top: 30px;
+}
+.cta-content {
+  align-self: flex-end;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  h1 {
+    font-size: 1.6em;
+  }
+  p {
+    font-size: 16px;
+    line-height: 172.5%;
+  }
+}
+
+.cta-footer {
+  padding: 30px 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  // justify-content: space-around;
+  gap: 57%;
+  border: 1px solid #403f40;
+  border-left: 0px;
+  border-right: 0px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  p {
+    font-size: 1em;
+  }
+  
 }

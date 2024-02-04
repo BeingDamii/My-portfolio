@@ -1,16 +1,20 @@
 .navbar {
   display: flex;
+  padding: 30px 7.5em;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   min-width: 100%;
 
   .logo {
-    font-size: 20px;
+    font-size: 1.2em;
     font-weight: medium;
   }
   .navlinks-wrapper {
     display: flex;
     gap: 50px;
+    .nav-link{
+      font-size: 1em;
+    }
   }
 }
