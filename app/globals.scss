@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$backgroundColor: #0a0a0a;
+$headingColor: white;
+$textColor: #878787;
+
+body {
+  background-color: $backgroundColor;
+  color: $textColor;
+}
+
+h1 {
+  font-size: 90px;
+  color: $headingColor;
+}
