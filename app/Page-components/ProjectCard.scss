@@ -1,0 +1,25 @@
+.project-card-wrapper {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  gap: 15px;
+  .project-heading-wrapper {
+    padding: 30px 120px;
+    font-weight: medium;
+    color: white;
+    h2 {
+      font-size: 1.2em;
+      font-weight: medium;
+    }
+    &:nth-child(even) {
+      padding: 30px 0px;
+    }
+  }
+  .project-card {
+    display: flex;
+    flex-direction: column;
+    img {
+      display: block;
+    }
+  }
+}
