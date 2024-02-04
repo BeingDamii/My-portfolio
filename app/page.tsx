@@ -1,7 +1,9 @@
+import CTA from "./Page-components/cta";
+
 export default function Home() {
   return (
-    <div className="main-container">
-      <h1>Software engineer and designer</h1>
+    <div>
+      <CTA />
     </div>
   );
 }

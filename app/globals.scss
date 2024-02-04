@@ -2,9 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-$backgroundColor: #0a0a0a;
-$headingColor: white;
-$textColor: #878787;
+@import "variables";
+@import "home";
 
 body {
   background-color: $backgroundColor;
@@ -12,6 +11,5 @@ body {
 }
 
 h1 {
-  font-size: 90px;
   color: $headingColor;
 }

@@ -1,0 +1,12 @@
+@import "./Page-components/navbar";
+
+.main-container {
+  padding: 30px 120px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url("./assets/cta-img.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
