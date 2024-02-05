@@ -1,11 +1,11 @@
-"use client"
+"use client";
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
 interface ProjectCardProps {
   subHeading: string;
-  imageSrc: StaticImageData; 
+  imageSrc: StaticImageData;
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ subHeading, imageSrc }) => {
@@ -26,10 +26,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ subHeading, imageSrc }) => {
       }
     };
 
-    document.addEventListener('mousemove', handleMouseMove);
+    document.addEventListener("mousemove", handleMouseMove);
 
     return () => {
-      document.removeEventListener('mousemove', handleMouseMove);
+      document.removeEventListener("mousemove", handleMouseMove);
     };
   }, [showButton]);
 
@@ -44,7 +44,14 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ subHeading, imageSrc }) => {
       <div className="project-heading-wrapper">
         <h2 className="subheading">{subHeading}</h2>
       </div>
-      {showButton && <button className="open-project" style={{ display: showButton ? 'unset' : 'none' }} ref={buttonRef}>Open</button> }
+      {showButton && (
+        <button
+          className={showButton ? "open-project" : "hide-project"}
+          ref={buttonRef}
+        >
+          Open
+        </button>
+      )}
     </div>
   );
 };
