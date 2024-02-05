@@ -1,5 +1,8 @@
 import Image from "next/image";
 import FPimgOne from "../assets/FP-img-1.png";
+import FPimgTwo from "../assets/FP-img-2.png";
+import FPimgThree from "../assets/FP-img-3.png";
+import FPimgFour from "../assets/FP-img-4.png";
 import ProjectCard from "./ProjectCard";
 
 const FeaturedProjects = () => {
@@ -15,15 +18,15 @@ const FeaturedProjects = () => {
           2023 Nigerian national elections."
         />
         <ProjectCard
-          imageSrc={FPimgOne}
+          imageSrc={FPimgTwo}
           subHeading="Redesigning VEFI's NFT marketplace to serve 8,000 community members."
         />
         <ProjectCard
-          imageSrc={FPimgOne}
+          imageSrc={FPimgThree}
           subHeading="Web-app to showcase various places to visit around Africa."
         />
         <ProjectCard
-          imageSrc={FPimgOne}
+          imageSrc={FPimgFour}
           subHeading="Curating my favorite Beephop Lo-Fi sounds into an online playlist"
         />
       </div>
