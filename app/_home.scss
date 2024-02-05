@@ -6,7 +6,6 @@
   display: flex;
   flex-direction: column;
   height: 100dvh;
-  // background-image: url("./assets/cta-img.png");
   background-repeat: no-repeat;
   background-position: 6.25em;
   position: relative;
@@ -38,11 +37,10 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  // gap: 57%;
   border: 1px solid #403f40;
   border-left: 0px;
   border-right: 0px;
-  position: absolute;
+  margin-top: 70px;
   bottom: 0;
   width: 100%;
   p {

@@ -7,7 +7,7 @@ import ProjectCard from "./ProjectCard";
 
 const FeaturedProjects = () => {
   return (
-    <div>
+    <div className="featured-section">
       <div className="heading-wrapper">
         <h1>Featured projects.</h1>
       </div>

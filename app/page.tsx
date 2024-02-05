@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <div>
       <CTA />
-      <FeaturedProjects/>
-      <Footer/>
+      <FeaturedProjects />
+      <Footer />
     </div>
   );
 }
