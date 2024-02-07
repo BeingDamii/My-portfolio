@@ -1,16 +1,16 @@
-
-
-footer{
-  display: none;
-}
-
 .footer-heading-container {
   padding: 50px 120px;
+  @media only screen and (max-width: 768px) {
+    padding: 1em 2em;
+  }
   .footer-heading {
     font-size: 1.4em;
     max-width: 200px;
     font-style: italic;
     color: $headingColor;
+    @media only screen and (max-width: 768px) {
+      font-size: 1.2em;
+    }
   }
 }
 
@@ -21,6 +21,11 @@ footer{
   justify-content: center;
   gap: 60px;
   padding-bottom: 50px;
+  @media only screen and (max-width: 768px) {
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
   .footer-link-group {
     display: flex;
     flex-direction: column;
@@ -32,6 +37,9 @@ footer{
       color: $headingColor;
       line-height: 100%;
       text-decoration: underline;
+      @media only screen and (max-width: 768px) {
+        font-size: 2.3em;
+      }
     }
   }
 }
@@ -46,6 +54,9 @@ footer{
   border-right: none;
   .footer-attr-text {
     font-size: 22px;
+    @media only screen and (max-width: 768px) {
+      font-size: .8em;
+    }
     a {
       font-style: italic;
       text-decoration: underline;
