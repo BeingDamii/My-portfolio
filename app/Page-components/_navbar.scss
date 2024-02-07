@@ -8,8 +8,8 @@
   @media only screen and (max-width: 768px) {
     justify-content: flex-start;
     position: sticky;
-    padding: 1em 1.875em; 
-    padding: 1em 2em; 
+    padding: 1em 1.875em;
+    padding: 1em 2em;
     padding-top: 2em;
   }
 
@@ -23,10 +23,12 @@
   .navlinks-wrapper {
     display: flex;
     flex-direction: row;
-    gap: 50px; 
+    gap: 50px;
     @media only screen and (max-width: 768px) {
       gap: 2.2em;
-      gap: 2em;
+    }
+    @media only screen and (max-width: 360px) {
+      gap: 1.6em;
     }
     .nav-link {
       font-size: 1em;
