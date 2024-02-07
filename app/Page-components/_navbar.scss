@@ -5,17 +5,30 @@
   justify-content: space-between;
   align-items: center;
   min-width: 100%;
+  @media only screen and (max-width: 768px) {
+    justify-content: center;
+    position: sticky;
+  }
 
   .logo {
     font-size: 1.2em;
     font-weight: medium;
+    @media only screen and (max-width: 768px) {
+      display: none;
+    }
   }
   .navlinks-wrapper {
     display: flex;
     flex-direction: row;
-    gap: 50px;
-    .nav-link{
+    gap: 50px; 
+    @media only screen and (max-width: 768px) {
+      gap: 30px;
+    }
+    .nav-link {
       font-size: 1em;
+      @media only screen and (max-width: 768px) {
+        color: white;
+      }
     }
   }
 }
