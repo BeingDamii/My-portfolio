@@ -6,7 +6,7 @@
   align-items: center;
   min-width: 100%;
   @media only screen and (max-width: 768px) {
-    justify-content: center;
+    // justify-content: center;
     position: sticky;
     padding: 1em 1.875em; 
     padding-top: 2.5em;
@@ -16,7 +16,7 @@
     font-size: 1.2em;
     font-weight: medium;
     @media only screen and (max-width: 768px) {
-      display: none;
+      font-size: 1.2em;
     }
   }
   .navlinks-wrapper {
@@ -24,13 +24,13 @@
     flex-direction: row;
     gap: 50px; 
     @media only screen and (max-width: 768px) {
-      gap: 40px;
+      gap: 20px;
     }
     .nav-link {
       font-size: 1em;
       @media only screen and (max-width: 768px) {
-        color: white;
-        font-size: 1.1em;
+        // color: white;
+        font-size: .9em;
       }
     }
   }
