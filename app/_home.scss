@@ -22,7 +22,7 @@
   flex-direction: column;
   margin-top: 1.875em; 
   @media only screen and (max-width: 48em) { 
-    padding: 1.875em;
+    padding: 3em;
   }
 }
 
@@ -60,6 +60,7 @@
   @media only screen and (max-width: 48em) { 
     // margin-top: 27dvh; 
     padding: 1.2em 1.875em; 
+    padding: 1.2em 3em; 
     justify-content: space-between;
     position: absolute;
     margin-bottom: 0px;
