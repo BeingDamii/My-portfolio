@@ -57,10 +57,9 @@
   bottom: 0;
   width: 100%;
   @media only screen and (max-width: 48em) { 
-    // margin-top: 3.125em; 
+    margin-top: 3.125em; 
     padding: 0.9375em 1.875em; 
     justify-content: space-between;
-    position: absolute;
   }
   p {
     font-size: 1em;
