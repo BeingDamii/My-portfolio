@@ -2,6 +2,9 @@
 
 .featured-section{
   position: relative;
+  @media only screen and (max-width: 768px) {
+   position: unset;
+  }
   
 }
 .heading-wrapper {
