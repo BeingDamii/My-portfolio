@@ -13,6 +13,10 @@
     h2 {
       font-size: 1.2em;
       font-weight: medium;
+      @media only screen and (max-width: 768px) {
+        font-size: 1em;
+        // font-weight: bold;
+      }
     }
   }
   .open-project {

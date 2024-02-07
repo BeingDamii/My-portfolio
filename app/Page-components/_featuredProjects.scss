@@ -2,14 +2,20 @@
 
 .featured-section{
   position: relative;
-  display: none;
+  
 }
 .heading-wrapper {
   padding: 30px 120px;
   font-weight: medium;
   color: white;
+  @media only screen and (max-width: 768px) {
+    padding: 1em 2em;
+  }
   h1 {
     font-size: 2em;
+    @media only screen and (max-width: 768px) {
+      font-size: 1.5em;
+    }
   }
 }
 
@@ -20,4 +26,7 @@
   align-content: center;
   justify-items: center;
   gap: 15px;
+  @media only screen and (max-width: 768px) {
+    grid-template-columns: auto;
+  }
 }
