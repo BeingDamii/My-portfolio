@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.scss";
+import NavBar from "./Page-components/navBar";
 
 export const metadata: Metadata = {
   title: "Eugene Ebenezer",

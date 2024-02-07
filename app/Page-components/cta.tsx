@@ -1,12 +1,11 @@
 import React from "react";
-import NavBar from "./navBar";
+
 import Image from "next/image";
 import MyPicture from "../assets/mypicture.png";
 
 const CTA = () => {
   return (
     <div className="main-container">
-      <NavBar />
       <div className="cta-content-wrapper">
         <div className="cta-content">
           <Image alt="image of Eugene" src={MyPicture} />
